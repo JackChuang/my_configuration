@@ -1,3 +1,11 @@
+
+<Git>
 git config --global user.name "JackChuang"
 git config --global user.email "horenc@vt.edu"
 
+git remote set-url origin git@github.com:JackChuang/krping.git
+
+
+<cscope>
+find . -name "*.c" -o -name "*.cpp" -o -name "*.h" -o -name "*.hpp" > cscope.files
+cscope -q -R -b -i cscope.files
