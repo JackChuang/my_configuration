@@ -1,0 +1,3 @@
+git config --global user.name "JackChuang"
+git config --global user.email "horenc@vt.edu"
+
