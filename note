@@ -6,13 +6,22 @@ git config --global user.email "horenc@vt.edu"
 git remote set-url origin git@github.com:JackChuang/krping.git
 
 
-<cscope>
+<cscope in any small project>
 find . -name "*.c" -o -name "*.cpp" -o -name "*.h" -o -name "*.hpp" > cscope.files
 cscope -q -R -b -i cscope.files
 
+<permission>
+/etc/group
+/etc/sudoers
 
-<export>
+<export PATH>
 /etc/profile
 
 <every user login>
 ~/.bashrc
+
+<tar>
+
+
+<TODO: learn>
+| -exec ??
