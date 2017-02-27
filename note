@@ -1,26 +1,40 @@
 
 <Git>
-git config --global user.name "JackChuang"
-git config --global user.email "horenc@vt.edu"
+$ git config --global user.name "JackChuang"
+$ git config --global user.email "horenc@vt.edu"
 
-git remote set-url origin git@github.com:JackChuang/krping.git
+$ git remote set-url origin git@github.com:JackChuang/krping.git
+
+=== Kill, Remove, Delete a branch (local or remote) ===
+To delete a local branch
+$ git branch -d the_local_branch
+To remove a remote branch (if you know what you are doing!)
+$ git push origin :the_remote_branch
 
 
 <cscope in any small project>
-find . -name "*.c" -o -name "*.cpp" -o -name "*.h" -o -name "*.hpp" > cscope.files
-cscope -q -R -b -i cscope.files
+$find . -name "*.c" -o -name "*.cpp" -o -name "*.h" -o -name "*.hpp" > cscope.files
+$ cscope -q -R -b -i cscope.files
 
 <permission>
-/etc/group
-/etc/sudoers
+$ sudo vi /etc/group
+$ sudo vi/etc/sudoers
 
 <export PATH>
-/etc/profile
+$ sudo vi /etc/profile
 
 <every user login>
-~/.bashrc
+$ vi ~/.bashrc
 
 <tar>
+
+<nfs>
+" server
+    $ vi /etc/exports
+" client
+    $ sudo mount -t nfs 10.1.1.160:/home/jackchuang/popcorn/linux-4.4_rack /mnt  (manually)
+    $ vi /etc/fstab     (auto)
+    $ df -h -F nfs      (check)
 
 
 <TODO: learn>

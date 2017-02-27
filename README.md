@@ -10,3 +10,7 @@ $ mv * .[^.]* ..
 Further update:
 $ cd  ~
 $ git pull
+
+Last:
+    check note
+    $ cat note

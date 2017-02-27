@@ -16,6 +16,8 @@ endif
   "set cindent
   " cursor underline
   set cursorline 
+  " paste
+  set paste
 
   "auto indent for different file formates
 filetype indent on
@@ -39,6 +41,32 @@ filetype indent on
 " Common settings
 syntax on
 set background=dark
+highlight Comment ctermfg=darkgrey
+" costumized by your self
+" highlight Constant ctermbg=Blue
+" highlight Normal ctermbg=Black
+" highlight NonText ctermbg=Black
+" highlight Special ctermbg=DarkMagenta
+" highlight Cursor ctermbg=Green
+"
+" examples
+" Black
+" DarkBlue
+" DarkGreen
+" DarkCyan
+" DarkRed
+" DarkMagenta
+" Brown, DarkYellow
+" LightGray, LightGrey, Gray, Grey
+" DarkGray, DarkGrey
+" Blue, LightBlue
+" Green, LightGreen
+" Cyan, LightCyan
+" Red, LightRed
+" Magenta, LightMagenta
+" Yellow, LightYellow
+" White
+"
 set nocst
 "set nu
 set expandtab
