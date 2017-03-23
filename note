@@ -36,6 +36,11 @@ $ vi ~/.bashrc
     $ vi /etc/fstab     (auto)
     $ df -h -F nfs      (check)
 
+<kernel>
+sudo su
+mount -t debugfs nodev /sys/kernel/debug
+echo 20000 > /sys/kernel/debug/tracing/buffer_size_kb
+cat /sys/kernel/debug/tracing/trace
 
 <TODO: learn>
 | -exec ??

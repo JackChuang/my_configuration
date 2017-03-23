@@ -32,7 +32,7 @@ filetype indent on
   " " make "tab" insert indents instead of tabs at the beginning of a line
  set smarttab
   " " always uses spaces instead of tab characters
- set expandtab
+ "set expandtab
 
 
 " supermartian's vimrc
